@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "animalChines.py",
         "cursor": {
-          "lineNumber": 5,
-          "column": 1
+          "lineNumber": 29,
+          "column": 47
         },
         "config": {
           "runtime": "python3.9",
@@ -22,15 +22,50 @@
           "layers": [],
           "name": "animalChines"
         },
-        "triggers": [],
-        "lastUpdated": 1633780514486
+        "triggers": [
+          {
+            "resourceName": "alexaSKac17b1b9d2c84f999770db1c1fec6fbb",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1633781411351,
+        "testCases": {
+          "7b074caa-da28-4734-aa79-97bc808c9969": {
+            "id": "7b074caa-da28-4734-aa79-97bc808c9969",
+            "name": "Test event",
+            "functionId": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "119404a6-5f94-4f9e-b6cd-48f2a583dd8c": {
+        "id": "119404a6-5f94-4f9e-b6cd-48f2a583dd8c",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
       }
     },
     "openFiles": [
       "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7"
     ],
     "currentFileId": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
-    "resources": {},
+    "resources": {
+      "alexaSKac17b1b9d2c84f999770db1c1fec6fbb": {
+        "name": "alexaSKac17b1b9d2c84f999770db1c1fec6fbb",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.ac17b1b9-d2c8-4f99-9770-db1c1fec6fbb",
+          "applicationID": ""
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -48,7 +83,14 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "ask_adk_core": {
+          "name": "ask_adk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -60,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1633780597225
+    "lastSave": 1633784599259
   },
   "VCS_STATE": {
     "provider": "GitHub",

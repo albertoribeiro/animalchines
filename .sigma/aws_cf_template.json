@@ -82,6 +82,17 @@
           ]
         }
       }
+    },
+    "alexaSKac17b1b9d2c8animalChinesPermission": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Ref": "animalChines"
+        },
+        "Principal": "alexa-appkit.amazon.com",
+        "EventSourceToken": "amzn1.ask.skill.ac17b1b9-d2c8-4f99-9770-db1c1fec6fbb"
+      }
     }
   }
 }
