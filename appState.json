@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7": {
+        "id": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
+        "parent": null,
+        "name": "animalChines.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "animalChines.py",
+        "cursor": {
+          "lineNumber": 5,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "animalChines"
+        },
+        "triggers": [],
+        "lastUpdated": 1633780514486
+      }
+    },
+    "openFiles": [
+      "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7"
+    ],
+    "currentFileId": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "animalChines",
+    "projectDescription": "primeira skill ",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1633780597225
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "animalchines",
+      "url": "https://github.com/albertoribeiro/animalchines"
+    }
+  }
+}
