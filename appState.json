@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "animalChines.py",
         "cursor": {
-          "lineNumber": 29,
-          "column": 47
+          "lineNumber": 7,
+          "column": 5
         },
         "config": {
           "runtime": "python3.9",
@@ -34,7 +34,7 @@
             "id": "7b074caa-da28-4734-aa79-97bc808c9969",
             "name": "Test event",
             "functionId": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
-            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
             "eventTemplate": "hello-world"
           }
         }
@@ -84,8 +84,8 @@
     ],
     "packageJSON": {
       "dependencies": {
-        "ask_adk_core": {
-          "name": "ask_adk_core",
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
           "version": "1.13.0",
           "dev": false,
           "language": "python"
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1633784599259
+    "lastSave": 1633825982876
   },
   "VCS_STATE": {
     "provider": "GitHub",

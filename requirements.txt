@@ -1,1 +1,1 @@
-ask_adk_core == 1.13.0
+ask_sdk_core == 1.13.0
