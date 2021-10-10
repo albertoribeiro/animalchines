@@ -20,6 +20,7 @@ class CatchAllExceptionHandler(AbstractExceptionHandler):
 
     def handle(self, handler_input, exception):
         print("> CatchAllExceptionHandler-handle")
+        print(exception)
         handler_input.response_builder.speak("Desculpe, ocorreu um problema. Por favor tente outra vez!! ").set_should_end_session(False)
         return handler_input.response_builder.response 
 
@@ -28,11 +29,10 @@ class AnimalChinesIntentHandler(AbstractRequestHandler):
         print("> AnimalChinesIntentHandler-can_handle")
         return is_intent_name("AnimalChinesIntent")(handler_input)
 
-    def handle(self, handler_input, exception):
+    def handle(self, handler_input):
         print("> AnimalChinesIntentHandler-handle")
-        print(exception)
         ano = handler_input.request_envelope.request.intent.slots['ano'].value
-        speech_text = "o ano que vc disse foi "
+        speech_text = "o ano que vc disse foi " + ano
         handler_input.response_builder.speak(speech_text).set_should_end_session(False)
         return handler_input.response_builder.response 
 
