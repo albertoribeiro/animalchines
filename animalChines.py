@@ -4,7 +4,7 @@ from ask_sdk_core.dispatch_components import AbstractExceptionHandler
 from ask_sdk_core.utils import is_request_type, is_intent_name
 
 class LaunchRequestHandler(AbstractRequestHandler):
-    def can_hanlde(self, handler_input):
+    def can_handle(self, handler_input):
         return is_request_type("LaunchRequest")(handler_input)
 
     def handle(self, handler_input):
@@ -21,7 +21,7 @@ class CatchAllExceptionHandler(AbstractExceptionHandler):
         return handler_input.response_builder.response 
 
 class AnimalChinesIntentHandler(AbstractRequestHandler):
-    def can_hanlde(self, handler_input):
+    def can_handle(self, handler_input):
         return is_intent_name("AnimalChinesIntent")(handler_input)
 
     def handle(self, handler_input, exception):

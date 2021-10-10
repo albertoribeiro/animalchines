@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "animalChines.py",
         "cursor": {
-          "lineNumber": 7,
-          "column": 5
+          "lineNumber": 40,
+          "column": 47
         },
         "config": {
           "runtime": "python3.9",
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1633825982876
+    "lastSave": 1633826158676
   },
   "VCS_STATE": {
     "provider": "GitHub",
