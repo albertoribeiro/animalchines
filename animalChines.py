@@ -32,7 +32,7 @@ class AnimalChinesIntentHandler(AbstractRequestHandler):
     def handle(self, handler_input):
         print("> AnimalChinesIntentHandler-handle")
         ano = handler_input.request_envelope.request.intent.slots['ano'].value
-        speech_text = "o ano que vc disse foi " + ano
+        speech_text = "O animal do ano " + ano + " é o vitor lindo"
         handler_input.response_builder.speak(speech_text).set_should_end_session(False)
         return handler_input.response_builder.response 
 
