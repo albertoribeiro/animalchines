@@ -11,7 +11,7 @@
         "isRemovable": true,
         "filePath": "animalChines.py",
         "cursor": {
-          "lineNumber": 40,
+          "lineNumber": 46,
           "column": 47
         },
         "config": {
@@ -34,8 +34,8 @@
             "id": "7b074caa-da28-4734-aa79-97bc808c9969",
             "name": "Test event",
             "functionId": "464a4ca0-3b24-43b6-8b3f-d7efde8b90c7",
-            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
-            "eventTemplate": "hello-world"
+            "event": "{\n    \"version\": \"1.0\",\n    \"session\": {\n        \"new\": false,\n        \"sessionId\": \"amzn1.echo-api.session.123456789012\",\n        \"application\": {\n            \"applicationId\": \"amzn1.ask.skill.987654321\"\n        },\n        \"attributes\": {\n            \"score\": 0,\n            \"currentQuestionIndex\": 0,\n            \"speechOutput\": \"Question 1. What was Rudolph's father's name? 1. Blixen. 2. Comet. 3. Donner. 4. Dasher. \",\n            \"correctAnswerText\": \"Donner\",\n            \"repromptText\": \"Question 1. What was Rudolph's father's name? 1. Blixen. 2. Comet. 3. Donner. 4. Dasher. \",\n            \"questions\": [\n                16,\n                20,\n                29,\n                2,\n                19\n            ],\n            \"STATE\": \"_TRIVIAMODE\",\n            \"correctAnswerIndex\": 3\n        },\n        \"user\": {\n            \"userId\": \"amzn1.ask.account.testUser\"\n        }\n    },\n    \"context\": {\n        \"AudioPlayer\": {\n            \"playerActivity\": \"IDLE\"\n        },\n        \"System\": {\n            \"application\": {\n                \"applicationId\": \"amzn1.ask.skill.987654321\"\n            },\n            \"user\": {\n                \"userId\": \"amzn1.ask.account.testUser\"\n            },\n            \"device\": {\n                \"supportedInterfaces\": {\n                    \"AudioPlayer\": {}\n                }\n            }\n        }\n    },\n    \"request\": {\n        \"type\": \"IntentRequest\",\n        \"requestId\": \"amzn1.echo-api.request.1234\",\n        \"timestamp\": \"2016-10-27T21:06:28Z\",\n        \"locale\": \"en-US\",\n        \"intent\": {\n            \"name\": \"AnswerIntent\",\n            \"slots\": {\n                \"Item\": {\n                    \"name\": \"ano\",\n                    \"value\": \"2021\"\n                }\n            }\n        }\n    }\n}",
+            "eventTemplate": "alexa-skills-kit-intent-answer"
           }
         }
       },
@@ -102,7 +102,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1633826158676
+    "lastSave": 1633827845869
   },
   "VCS_STATE": {
     "provider": "GitHub",
